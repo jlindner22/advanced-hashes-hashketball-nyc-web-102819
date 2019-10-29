@@ -150,23 +150,6 @@ def team_names
   end
 end
 
-# def player_numbers(team)
-#   array = []
-#   game_hash.each do |location, team_data|
-#       team_data.each do |attribute, values|
-#           if attribute == :players
-#             values.each do |person, data|
-#               data.each do |i, x|
-#                 if i == :number
-#                   array.push(x)
-#                 end
-#               end
-#             end
-#           end
-#       end
-#   end
-#   array
-# end 
 
 def player_numbers(team)
   numbers =[]
